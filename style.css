@@ -1,0 +1,37 @@
+* {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    background-color: blue;
+    color: white;
+}
+
+.list {
+    font-size: 16px; 
+}
+
+.toc {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pic {
+    width: 350px;
+    height: auto;
+}
+
+.title.lemon {
+    background-color: yellow;
+    color: black;
+}
+
+.title.alfredo {
+    background-color: burlywood;
+    color: black;
+}
+
+.title.pp {
+    background-color: brown;
+}
