@@ -1,15 +1,27 @@
 * {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: auto; */
 }
 
 .title {
     background-color: blue;
     color: white;
+
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
 }
 
 .list {
-    font-size: 16px; 
+    font-size: 20px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .toc {
@@ -20,6 +32,11 @@
 .pic {
     width: 350px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .title.lemon {
@@ -34,4 +51,10 @@
 
 .title.pp {
     background-color: brown;
+}
+
+.desc {
+    padding-left: 1cm;
+    /* border: 80px; */
+    /* margin: 80px; */
 }
